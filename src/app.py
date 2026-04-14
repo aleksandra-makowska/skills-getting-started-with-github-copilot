@@ -65,3 +65,4 @@ def signup_for_activity(activity_name: str, email: str):
     # Add student
     activity["participants"].append(email)
     return {"message": f"Signed up {email} for {activity_name}"}
+# Validate student is not already signed up
